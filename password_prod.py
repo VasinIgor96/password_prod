@@ -31,4 +31,4 @@ while True:
     while special != 'yes' and special != 'no':
         print("Invalid input. Please enter 'yes' or 'no'.")
         special = input("Add signs (yes/no)? ").lower()
-    special = special == 'yes'
+    special = special == 'yes' 
