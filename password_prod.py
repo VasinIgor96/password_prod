@@ -32,7 +32,7 @@ while True:
         special = input("Add signs (yes/no)? ").lower()
     special = special == 'yes' 
     
-characters = ""
+    characters = ""
     if uppercase:
         characters += string.ascii_uppercase
     if lowercase:
